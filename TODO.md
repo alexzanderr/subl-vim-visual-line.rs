@@ -41,7 +41,7 @@
 - [x] auto reload sublime plugin dependencies, because sublime doesnt reload them, unless you restart sublime app ( doesnt work i couldnt find a way to reload the shared object, even manually)
 
 - [ ] https://rustrepo.com/repo/mcandre-tinyrick-rust-development-tools
-- [ ] put project on github
+- [x] put project on github
 - [ ]
 - [ ]
 - [ ]
