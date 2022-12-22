@@ -1,0 +1,28 @@
+# venv needs to be on the entire project
+venv-python38/
+    ...
+rust_api_source/
+    src/
+        lib.rs
+    Cargo.toml
+    pyproject.toml
+    target/
+        wheels/
+            vim-visual-line.whl
+
+
+# this is release mode sublime plugin
+sublime-plugin/
+    # sublime plugin specific things
+    .python-version
+    Main.sublime-menu
+    ...
+    main.py
+    rust_api/
+        __init__.py
+        # these 2 are installed with pip from ../../rust_api_source/target/wheels/the wheel file
+        vim_visual_line/
+            __init.py
+            # compiled rust library
+            vim-visual-line.shared-object
+        vim_visual_line-0.1.0.dist-info # not relevant

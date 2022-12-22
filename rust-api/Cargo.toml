@@ -1,0 +1,16 @@
+[package]
+name = "vim-visual-line"
+version = "0.0.1"
+edition = "2021"
+# build = "build/main.rs"
+
+[lib]
+name = "vim_visual_line"
+crate-type = ["cdylib"]
+
+[dependencies]
+colored = "2.0.0"
+pyo3 = { version = "0.17.3", features = [
+    "extension-module",
+    "multiple-pymethods"
+]}
